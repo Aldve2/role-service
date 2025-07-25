@@ -10,6 +10,7 @@ import yps.systems.ai.repository.IRoleRepository;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "*", methods = {RequestMethod.POST, RequestMethod.GET})
 @RestController
 @RequestMapping("/roleService")
 public class RoleController {
